@@ -1,0 +1,93 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/shizhu/list",
+    "pages/shizhu/add-or-update",
+    "pages/shizhu/detail",
+    "pages/xunwuqishi/list",
+    "pages/xunwuqishi/add-or-update",
+    "pages/xunwuqishi/detail",
+    "pages/shiwuguihai/list",
+    "pages/shiwuguihai/add-or-update",
+    "pages/shiwuguihai/detail",
+    "pages/shiwuzhaoling/list",
+    "pages/shiwuzhaoling/add-or-update",
+    "pages/shiwuzhaoling/detail",
+    "pages/shiwurenling/list",
+    "pages/shiwurenling/add-or-update",
+    "pages/shiwurenling/detail",
+    "pages/gonggaoxinxi/list",
+    "pages/gonggaoxinxi/add-or-update",
+    "pages/gonggaoxinxi/detail",
+    "pages/yonghutousu/list",
+    "pages/yonghutousu/add-or-update",
+    "pages/yonghutousu/detail",
+    "pages/shizhutousu/list",
+    "pages/shizhutousu/add-or-update",
+    "pages/shizhutousu/detail",
+    "pages/yonghuxinyong/list",
+    "pages/yonghuxinyong/add-or-update",
+    "pages/yonghuxinyong/detail",
+    "pages/shizhuxinyong/list",
+    "pages/shizhuxinyong/add-or-update",
+    "pages/shizhuxinyong/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "高校寻物平台小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#A98175",
+    "selectedColor": "#2E4E7E",
+    "borderStyle": "white",
+    "backgroundColor": "#FFC773",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/xunwuqishi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "寻物启示"
+      },
+      {
+        "pagePath": "pages/shiwuzhaoling/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "失物招领"
+      },
+      {
+        "pagePath": "pages/gonggaoxinxi/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "公告信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
